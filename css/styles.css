@@ -44,6 +44,7 @@ header{
     background-color: #f26c25;
     padding-top: 10px;
     padding-bottom: 10px;
+    /*height: 80px;*/
 }
 
 header .wrapper{
@@ -77,4 +78,63 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+}
+
+/*  Section Banniere    */
+
+.banniere{
+    background-color: #eeeeee;
+}
+
+.banniere .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.banniere h1{
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*  Section Transport   */
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    height: 60px;
+    border: 1px solid #d0d0d0;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.titre-section h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.titre-section img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.conteneur-transport h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteneur-transport p{
+    text-align: center;
 }
