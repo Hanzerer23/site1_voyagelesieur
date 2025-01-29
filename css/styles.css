@@ -203,3 +203,8 @@ footer ul{
 .pinterest a:hover{
     background-image: url("../images/pinterest-survol.jpg");
 }
+
+
+.transport-invisible{
+    display: none;
+}
